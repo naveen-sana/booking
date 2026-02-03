@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Travels - Vacation Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <h1 class="logo">Naveen Travels</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#places">Places</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Plan your dream holiday or weekend getaway with Naveen Travels. From pickup to drop-off, we handle it
+                all.</p>
+            <a href="#packages" class="btn btn-primary">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Places Section -->
+    <section id="places" class="section places-section">
+        <div class="container">
+            <h2 class="section-title">Places to Visit</h2>
+            <p class="section-subtitle">Explore destinations that attract people for their natural beauty, culture, and
+                history.</p>
+
+            <div class="places-grid">
+                <div class="place-card">
+                    <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=3432&auto=format&fit=crop"
+                        alt="Kerala">
+                    <div class="place-info">
+                        <h3>Kerala</h3>
+                        <p>God's Own Country</p>
+                    </div>
+                </div>
+                <div class="place-card">
+                    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=3432&auto=format&fit=crop"
+                        alt="Manali">
+                    <div class="place-info">
+                        <h3>Manali</h3>
+                        <p>Valley of Gods</p>
+                    </div>
+                </div>
+                <div class="place-card">
+                    <img src="https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=3387&auto=format&fit=crop"
+                        alt="Kashmir">
+                    <div class="place-info">
+                        <h3>Kashmir</h3>
+                        <p>Paradise on Earth</p>
+                    </div>
+                </div>
+                <div class="place-card">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=3410&auto=format&fit=crop"
+                        alt="Goa">
+                    <div class="place-info">
+                        <h3>Goa</h3>
+                        <p>Beaches & Parties</p>
+                    </div>
+                </div>
+                <!-- Replaced local images with high quality unsplash images for better aesthetic as requested -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section packages-section">
+        <div class="container">
+            <h2 class="section-title">Our Packages</h2>
+            <p class="section-subtitle">Choose from our curated vacation packages designed for your comfort.</p>
+
+            <div class="packages-grid">
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=3432&auto=format&fit=crop"
+                            alt="Kerala Trip">
+                    </div>
+                    <div class="package-content">
+                        <h3>Kerala Bliss</h3>
+                        <p>Experience the backwaters and lush greenery of Kerala in this 5-day trip.</p>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-user"></i> $450</span>
+                        </div>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </article>
+
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=3432&auto=format&fit=crop"
+                            alt="Manali Adventure">
+                    </div>
+                    <div class="package-content">
+                        <h3>Manali Adventure</h3>
+                        <p>Snow-capped mountains and river rafting await you in Manali.</p>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 4 Days</span>
+                            <span><i class="fas fa-user"></i> $350</span>
+                        </div>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </article>
+
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=3387&auto=format&fit=crop"
+                            alt="Kashmir Tour">
+                    </div>
+                    <div class="package-content">
+                        <h3>Kashmir Tour</h3>
+                        <p>Enjoy the serene beauty of Dal Lake and Mughal Gardens.</p>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-user"></i> $500</span>
+                        </div>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <footer id="contact" class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Naveen Travels</h3>
+                <p>Making your holidays memorable since 2026.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#places">Places</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Naveen Travels. All Rights Reserved. Developed by Naveen Reddy</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
